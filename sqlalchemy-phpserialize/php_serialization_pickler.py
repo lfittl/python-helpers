@@ -5,8 +5,8 @@
 #
 # Author: Lukas Fittl <lukas@fittl.com>
 
-from REPLACE_THIS_PATH import PHPSerialize
-from REPLACE_THIS_PATH import PHPUnserialize
+import PHPSerialize
+import PHPUnserialize
 
 def dumps(data, protocol=None):
     return PHPSerialize().serialize(data)

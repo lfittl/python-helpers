@@ -5,10 +5,3 @@ The PHP serialization format parsing code was written by Scott Hurring,
 and is being used under the Terms of the GNU General Public License.
 
 Scott Hurring's PHPSerialize: http://hurring.com/code/python/phpserialize/
-
-
---- !!! ---
-
-In all files: Replace REPLACE_THIS_PATH with the correct python path to this package. 
-
---- !!! ---
