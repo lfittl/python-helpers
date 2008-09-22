@@ -14,7 +14,7 @@ class working_directory(object):
     def __enter__(self):
         self.old_cwd = os.getcwd()
         
-		os.chdir(self.new_cwd)
+        os.chdir(self.new_cwd)
     
     def __exit__(self, type, value, traceback):
         os.chdir(self.old_cwd)
